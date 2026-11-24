@@ -3,7 +3,7 @@
 on:
   push:
     branches:
-      - main
+      - teste-falha-ci
 
 jobs:
   setup:
@@ -50,3 +50,4 @@ jobs:
     steps:
       - name: Mostrar mensagem de deploy
         run: echo "Cloudflare fará deploy automaticamente"
+
